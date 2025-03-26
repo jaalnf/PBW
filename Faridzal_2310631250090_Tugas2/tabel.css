@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid #e3e4e4 ;
+    padding: 8px;
+    text-align: left;
+}
+.tengah {
+    text-align: center;
+}
+th {
+    font-weight: bold;
+}

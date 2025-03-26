@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    .jumbotron {
+        height: 100vh;
+        background: url('Images/Home.jpg') no-repeat center center/cover;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .jumbotron::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.3); 
+        z-index: 1;
+    }
+    
+    .jumbotron .container {
+        position: relative;
+        z-index: 2;
+        max-width: 600px;
+    }
+    
+    /* Styling teks */
+    .jumbotron h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        line-height: 1.2;
+    }
+    
+    .jumbotron p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    .btn-primary {
+        background-color: #28a745;
+        border-color: #28a745;
+        opacity: 0.7;
+        transition: background-color 0.3s ease, opacity 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+        opacity: 0.5;
+    }    
+    .about-section {
+        padding: 80px 10%;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+    
+    .about-section h2 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .about-section p {
+        font-size: 1.2rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0 auto 40px;
+    }
+    
+    .departemen {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .departemen-box {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 45%;
+        text-align: left;
+    }
+    
+    .departemen-box h3 {
+        font-size: 1.8rem;
+        color: #28a745;
+        margin-bottom: 10px;
+    }
+    
+    .departemen-box p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .departemen-box ul {
+        padding-left: 20px;
+    }
+    
+    .departemen-box ul li {
+        font-size: 1rem;
+        color: #444;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    
