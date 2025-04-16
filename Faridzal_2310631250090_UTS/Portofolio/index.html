@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <section id="home">
+      <div class="container">
+        <header>
+          <a href="#" class="logo">My Portfolio</a>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">Portofolio</a></li>
+            <li><a href="#project">Prestasi</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <h2>Hello ! I'm Faridzal</h2>
+          <p>I’m an Information Systems student at Universitas Singaperbangsa Karawang. Still exploring my path, but currently interested in machine learning. No projects yet just getting started and excited to learn.</p>
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="CV.pdf" target="_blank" class="btn">Visit CV</a>
+
+        </div>
+        <div class="imgBox">
+          <img src="img/ijal.png" alt="Foto" />
+        </div>
+        <ul class="icon">
+          <li><a href="https://www.instagram.com/jaalnf?igsh=YXJzN2JvMnpoOGpv" target="_blank"><img src="img/instagram.png" /></a></li>
+          <li><a href="http://github.com/jaalnf" target="_blank"><img src="img/github.png" /></a></li>
+        </ul>
+        <div class="notes"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="content">
+          <h2>About Me</h2>
+          <p>
+            Saya Belum memiliki portofolio yang konkrit, tapi hasil portofolio web ini menjadi pengalaman pertama saya setelah saya mempelajari HTML, CSS, dan JavaScript. Untuk project lainnya akan hadir di kemudian waktu.
+          </p>
+        </div>
+        </div>
+    </section>
+
+ 
+    <section id="project">
+      <div class="container">
+        <div class="content">
+          <h2>Prestasi</h2>
+          <p>
+           Pada tahun 2024 saya menjadi Anggota Divisi Relasi di HIMSIKA (Himpunan Mahasiswa Sistem Informasi Karawang). Saat menjadi pengurus saya menjadi Ketua Pelaksana Information System Company Tour dan mendapatkan The Savior pada Triwulan 2. 
+          </p>
+        </div>
+       
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <div class="content">
+          <h2>Contact Me</h2>
+          <p>
+            Let's connect! You can send me a message directly using the form below.
+          </p>
+          <form class="contact-form" onsubmit="sendMessage(event)">
+            <form action="#">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="button-group">
+            <button type="submit">Send Message</button> <br>
+            <button type="button" onclick="scrollToHome()" class="btn">Back to Home</button>
+          </div>
+          </form>
+        </div>
+       
+      </div>
+    </section>
+<script src="script.js"></script>
+  </body>
+</html>
